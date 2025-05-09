@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import OnboardingPanel from './components/onboarding/OnBoardinPanel';
 import DashboardPanel from './components/dashboard/DashboardPanel';
 import DetailPanel from './components/details/DetailPanel';
-import ThemeToggle from './components/layout/Header';
+import ThemeToggle from './components/layout/ThemeToggle';
 
 function App() {
   const [activePanel, setActivePanel] = useState('onboarding');

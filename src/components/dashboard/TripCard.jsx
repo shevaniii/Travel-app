@@ -9,7 +9,7 @@ const TripCard = ({ trip }) => {
     <div
       className="relative h-[180px] rounded-2xl overflow-hidden shadow-lg bg-gray-100"
       style={{
-        backgroundImage: `url(${"https://images.unsplash.com/photo-1586500057400-f843ba6f7f8c?auto=format&fit=crop&w=800&q=80"})`,
+        backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
